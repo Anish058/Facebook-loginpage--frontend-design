@@ -1,0 +1,169 @@
+body{
+    display: flex;
+    
+    
+    justify-content: center;
+    background-color:white;
+
+
+    height: 100vh;
+    
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+        top: 55%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+    flex-direction: column;
+    border: 0.1px solid rgb(206, 199, 199);
+    
+    padding: 4vh 8vh;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+    
+
+    
+    
+    gap: 14vh;
+    border-radius: 16px;
+    
+    
+
+    
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+
+    width: 40vh;
+    height: 40px;
+    gap: 4px;
+    padding: 10px;
+    
+    
+}
+input{
+    
+    height: 30px;
+    background-color: #f8f4f4;
+    
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    display: flex;
+    
+
+    transition: all 0.4s ease;
+    
+
+
+
+}
+.In{
+    flex-direction: column;
+    display: flex;
+    gap: 7px;
+}
+#username:hover,  #password:hover{
+    transform: scale(1.05);
+    outline: none;
+
+}
+button{
+    height: 30px;
+    border: 1px solid black;
+    padding: 8px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+
+}
+button:hover{
+    background-color: #0d0e0f;
+    cursor: pointer;
+}
+h1{
+    position: absolute;
+        top: 2%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #1877f2;
+        font-family: "Segoe UI", Helvetica, and Arial, sans-serif;
+        font-size: 48px;
+}
+hr{
+    display: flex;
+    border: 1px solid rgb(134, 127, 127);
+    width: 100%;
+
+    
+    
+
+    
+    
+}
+#login{
+    border: none;
+    
+    height: 30px;
+    width: 40vh;
+    
+}
+.or{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2vh;
+}
+.hr{ display: flex;
+    width: 230px;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: center;
+    text-align: center;
+
+
+}
+#create{
+    background-color: rgb(97, 181, 12);
+    height: 4vh;
+    border-radius: 0px;
+    width: 22vh;
+    border: none;
+    
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+hr{
+    border: none;
+    background-color: #0d0e0f;
+    height: 0.5px;
+}
+img{
+   display: flex;
+   position: absolute;
+   top: 10%;
+   right: 52%;
+   
+    width: 40%;
+    height: 90%;
+    opacity: 0.9;
+}
+
+
+
+
+    
+    
