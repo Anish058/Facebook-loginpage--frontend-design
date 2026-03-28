@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel = "stylesheet" href = "signup.css">
+</head>
+<body>
+
+
+     <div class="title">
+                <a>Create account</a>
+     </div>
+     <div>
+        <form id="signup" method="POST" action="Createrepo.php">
+            
+            
+            <div class="container2">
+                
+                <div class="first">
+                    <div>
+                        <label>Name</label>
+                    </div>
+                
+        <div class="naming">
+            
+            <div class="field">
+            <input type = "text" name= "firstname" id="firstname" placeholder = "Enter your first name">
+            <p id="firstnameError" class="error" style="color:red; font-size:14px;"></p>
+            </div>
+
+            <div class="field">
+
+            <input type = "text" name= "lastname" id="lastname" placeholder = "Enter your last name">
+            <p id="lastnameError" class="error" style="color:red; font-size:14px;"></p>
+            </div>
+        </div>
+        </div>
+        <div class="Second">
+        <div class="RtoS">
+        <div class="radio">
+            <div class="Gender">
+            <label>Gender</label><br>
+            </div>
+
+            <div class="opt">
+<div>
+            <label>
+                <input type="radio" name="gender" value="male">male
+            </label>
+            <label>
+                <input type="radio"  name="gender" value="female">female
+            </label>
+            <label>
+                <input type="radio"  name="gender" value="other">other
+            </label>
+</div>
+<div>
+            <p id="genderError" class="error" style="color:red; font-size:14px;"></p>
+</div>
+            </div>
+
+        </div>
+
+        <div class="second">
+    <div class="email">
+        <div>
+            <label>Email</label>
+        </div>
+        <div>
+            <input type=" text" name="email" id="email" placeholder="Enter your email address">
+            <p id="emailError" class="error" style="color:red; font-size:14px;"></p>
+        </div>
+     </div>
+            <div class="Password">
+                <div>
+                <label>Password</label>
+                </div>
+                <div>
+            <input type = "password" name="password" id="password1" placeholder = "create your password">
+            <p id="password1Error" class="error" style="color:red; font-size:14px;"></p>
+                </div>
+            </div>
+
+            <div class="confirm">
+                <div>
+            <label>Confrrm password</label>
+                </div>
+<div>
+            <input type = "password"  id="password2" placeholder = "Confirm your password">
+            <p id="password2Error" class="error" style="color:red; font-size:14px;"></p>
+</div>
+        </div>
+
+            
+            </div>
+        </div>
+        </div>
+        <div class = "last">
+            <div>
+                <a>People who use our service may have uploaded your contact information to Facebook.<br>
+                   By tapping Submit, you agree to create an account and to Facebook's ,  and .<br>
+                   The  describes the ways we can use the information we collect when you create<br>
+                    an account. For example, we use this information to provide, personalize and <br>
+                    improve our products, including ads.</a>
+            </div>
+
+            <div class="proceed"> 
+                <button type="submit" id="create">SUBMIT</button>
+            </div>
+        </div>
+        </div>
+        
+        </form>
+     </div>
+
+
+
+
+
+
+
+
+
+    <script src="fb.js" ></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 243, 246);
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+ 
+    
+    
+
+}
+.container2{
+    display: flex;
+    position: relative;
+    
+    
+    justify-content: center;
+    width: 500px;
+    gap:5px;
+    flex-direction: column;
+    padding: 40px 
+    40px;
+    
+    zoom: 0.9;
+    align-items: stretch;
+    
+    
+}
+
+h2{
+    background-color: rgb(243, 247, 245);
+    display: flex;
+    position: absolute;
+    top: 5%;
+    right: 70%;
+    
+}
+.naming{
+    display: flex;
+    width: 100%;
+    gap:24px;
+  
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    flex:1;
+}
+.field input{
+    display: flex;
+    width: 100%;
+    
+    height: 5vh;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+#email{
+    display: flex;
+    width: 100%;
+    
+    height: 5vh;
+    border: 0.5x solid black;
+    border-radius: 10px;
+    
+}
+#password1{
+    display: flex;
+    width: 100%;
+    
+    height: 5vh;
+    border: 1x solid black;
+    border-radius: 10px;
+}
+#password2{
+    display: flex;
+    width: 100%;
+    
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.proceed button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    
+    align-items: center;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    
+}
+.radio{
+    display: flex;
+    position: relative;
+    gap: 11px;
+    flex-direction: column;
+    width: 100%;
+
+}
+.Gender{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    
+
+}
+.opt{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: relative;
+    flex-direction: column;
+    
+
+    
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.RtoS{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.Password{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.confirm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.Password label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.email label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.confirm label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+.title{
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.title a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px ;
+    color: #1877f2;
+}
+div label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
